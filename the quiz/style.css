@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orangered;
+}
+
+.app{
+    background: bisque;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.btn{
+    color:orangered;
+    background-color: bisque;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid orangered;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+}
+
+.btn:hover{
+    color: bisque;
+    background-color: orangered;
+}
+#next-btn{
+    color:orangered;
+    background-color: bisque;
+    font-weight: 500;
+    width: 20%;
+    border: 1px solid orangered;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+}
